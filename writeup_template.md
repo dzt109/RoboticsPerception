@@ -1,12 +1,12 @@
 ## Project: Perception Pick & Place
-##Deepak Trivedi, 11/23/2017
+## Deepak Trivedi, 11/23/2017
 
 
 [//]: # (Image References)
 
-[image1]: ./misc_images/train_svm.png
-[image2]: ./misc_images/world2a.png
-[image3]: ./misc_images/world3.png
+[image1]: ./misc_images/train_svm.PNG
+[image2]: ./misc_images/world2a.PNG
+[image3]: ./misc_images/world3.PNG
 
 
 ---

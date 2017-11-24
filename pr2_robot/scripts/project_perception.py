@@ -245,9 +245,7 @@ def pr2_mover(object_list):
 	           name.data = str(object.label)
 		   break
 
-        print "group: ", group
-        print "name: ", name.data
-
+  
         for box in dropbox_list:
         	if box['group'] == group:
 		        x, y, z = box['position']
@@ -260,15 +258,10 @@ def pr2_mover(object_list):
 
 
         # TODO: Assign the arm to be used for pick_place
-    	print "ARM:", arm.data
-    	print "To be placed at:"
-	print place_pose.position
-
 
         # TODO: Create a list of dictionaries (made with make_yaml_dict()) for later output to yaml format
         yaml_dict = make_yaml_dict(test_scene, arm, name, pick_pose, place_pose)
 	output.append(yaml_dict)
-        print "Yaml dictionary created"
 
         # Wait for 'pick_place_routine' service to come up
         #rospy.wait_for_service('pick_place_routine')
